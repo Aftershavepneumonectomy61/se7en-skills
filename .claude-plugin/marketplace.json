@@ -1,0 +1,10 @@
+{
+  "displayName": "se7en Skills",
+  "categories": ["Productivity", "Content Creation", "Research"],
+  "keywords": [
+    "writing style", "style transfer", "prompt engineering",
+    "token stats", "document converter", "speech script",
+    "video summary", "BibiGPT"
+  ],
+  "license": "MIT"
+}

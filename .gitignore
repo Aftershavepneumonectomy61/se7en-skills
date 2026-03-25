@@ -1,0 +1,28 @@
+# Default: ignore everything, whitelist explicitly
+*
+
+# Root files
+!.gitignore
+!README.md
+!CLAUDE.md
+!LICENSE
+
+# Plugin manifest
+!.claude-plugin/
+!.claude-plugin/**
+
+# Scripts
+!scripts/
+!scripts/**
+
+# Skills
+!skills/
+!skills/**
+
+# Common ignores (override whitelist)
+node_modules/
+.DS_Store
+*.pyc
+__pycache__/
+*.log
+*.local.md

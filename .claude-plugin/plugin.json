@@ -1,0 +1,7 @@
+{
+  "name": "se7en-skills",
+  "version": "1.0.0",
+  "description": "Claude Code Skills Collection by se7en",
+  "author": "se7en (yiliqi78)",
+  "skills": "./skills"
+}
