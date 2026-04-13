@@ -12,6 +12,7 @@
 | **[se7en-doc-converter](skills/se7en-doc-converter/)** | 文档转写——将 PDF、Word、PPT 转为结构化 Markdown |
 | **[se7en-talkline](skills/se7en-talkline/)** | 演讲剧本生成器——把核心表达拆解为戏剧化的逐幕叙事结构 |
 | **[se7en-bibigpt](skills/se7en-bibigpt/)** | BibiGPT 视频总结——自动提取视频的 AI 摘要和口播逐字稿 |
+| **[se7en-fitness-tracker](skills/se7en-fitness-tracker/)** | 健身追踪——体测录入、体重打卡、饮食记录与营养估算、训练方案生成、看板可视化 |
 
 ## 安装
 
@@ -51,10 +52,12 @@ se7en-skills/
     │   └── SKILL.md
     ├── se7en-talkline/
     │   └── SKILL.md
-    └── se7en-bibigpt/
-        ├── SKILL.md
-        └── scripts/
-            └── bibigpt_fetch.py
+    ├── se7en-bibigpt/
+    │   ├── SKILL.md
+    │   └── scripts/
+    │       └── bibigpt_fetch.py
+    └── se7en-fitness-tracker/
+        └── SKILL.md
 ```
 
 ## 贡献
